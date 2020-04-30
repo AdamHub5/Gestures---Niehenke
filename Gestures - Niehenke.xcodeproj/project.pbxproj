@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66B05900245B9C9F008E5431 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B058FF245B9C9F008E5431 /* AppDelegate.swift */; };
+		66B05902245B9C9F008E5431 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B05901245B9C9F008E5431 /* SceneDelegate.swift */; };
+		66B05904245B9C9F008E5431 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B05903245B9C9F008E5431 /* ViewController.swift */; };
+		66B05907245B9C9F008E5431 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B05905245B9C9F008E5431 /* Main.storyboard */; };
+		66B05909245B9CA1008E5431 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 66B05908245B9CA1008E5431 /* Assets.xcassets */; };
+		66B0590C245B9CA1008E5431 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 66B0590A245B9CA1008E5431 /* LaunchScreen.storyboard */; };
+		66B05917245B9CA2008E5431 /* Gestures___NiehenkeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B05916245B9CA2008E5431 /* Gestures___NiehenkeTests.swift */; };
+		66B05922245B9CA2008E5431 /* Gestures___NiehenkeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66B05921245B9CA2008E5431 /* Gestures___NiehenkeUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		66B05913245B9CA2008E5431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66B058F4245B9C9F008E5431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66B058FB245B9C9F008E5431;
+			remoteInfo = "Gestures - Niehenke";
+		};
+		66B0591E245B9CA2008E5431 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 66B058F4245B9C9F008E5431 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66B058FB245B9C9F008E5431;
+			remoteInfo = "Gestures - Niehenke";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		66B058FC245B9C9F008E5431 /* Gestures - Niehenke.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gestures - Niehenke.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B058FF245B9C9F008E5431 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		66B05901245B9C9F008E5431 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		66B05903245B9C9F008E5431 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		66B05906245B9C9F008E5431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		66B05908245B9CA1008E5431 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		66B0590B245B9CA1008E5431 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		66B0590D245B9CA1008E5431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B05912245B9CA2008E5431 /* Gestures - NiehenkeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gestures - NiehenkeTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B05916245B9CA2008E5431 /* Gestures___NiehenkeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gestures___NiehenkeTests.swift"; sourceTree = "<group>"; };
+		66B05918245B9CA2008E5431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66B0591D245B9CA2008E5431 /* Gestures - NiehenkeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gestures - NiehenkeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		66B05921245B9CA2008E5431 /* Gestures___NiehenkeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Gestures___NiehenkeUITests.swift"; sourceTree = "<group>"; };
+		66B05923245B9CA2008E5431 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		66B058F9245B9C9F008E5431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B0590F245B9CA2008E5431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B0591A245B9CA2008E5431 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		66B058F3245B9C9F008E5431 = {
+			isa = PBXGroup;
+			children = (
+				66B058FE245B9C9F008E5431 /* Gestures - Niehenke */,
+				66B05915245B9CA2008E5431 /* Gestures - NiehenkeTests */,
+				66B05920245B9CA2008E5431 /* Gestures - NiehenkeUITests */,
+				66B058FD245B9C9F008E5431 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		66B058FD245B9C9F008E5431 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				66B058FC245B9C9F008E5431 /* Gestures - Niehenke.app */,
+				66B05912245B9CA2008E5431 /* Gestures - NiehenkeTests.xctest */,
+				66B0591D245B9CA2008E5431 /* Gestures - NiehenkeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		66B058FE245B9C9F008E5431 /* Gestures - Niehenke */ = {
+			isa = PBXGroup;
+			children = (
+				66B058FF245B9C9F008E5431 /* AppDelegate.swift */,
+				66B05901245B9C9F008E5431 /* SceneDelegate.swift */,
+				66B05903245B9C9F008E5431 /* ViewController.swift */,
+				66B05905245B9C9F008E5431 /* Main.storyboard */,
+				66B05908245B9CA1008E5431 /* Assets.xcassets */,
+				66B0590A245B9CA1008E5431 /* LaunchScreen.storyboard */,
+				66B0590D245B9CA1008E5431 /* Info.plist */,
+			);
+			path = "Gestures - Niehenke";
+			sourceTree = "<group>";
+		};
+		66B05915245B9CA2008E5431 /* Gestures - NiehenkeTests */ = {
+			isa = PBXGroup;
+			children = (
+				66B05916245B9CA2008E5431 /* Gestures___NiehenkeTests.swift */,
+				66B05918245B9CA2008E5431 /* Info.plist */,
+			);
+			path = "Gestures - NiehenkeTests";
+			sourceTree = "<group>";
+		};
+		66B05920245B9CA2008E5431 /* Gestures - NiehenkeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				66B05921245B9CA2008E5431 /* Gestures___NiehenkeUITests.swift */,
+				66B05923245B9CA2008E5431 /* Info.plist */,
+			);
+			path = "Gestures - NiehenkeUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		66B058FB245B9C9F008E5431 /* Gestures - Niehenke */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B05926245B9CA2008E5431 /* Build configuration list for PBXNativeTarget "Gestures - Niehenke" */;
+			buildPhases = (
+				66B058F8245B9C9F008E5431 /* Sources */,
+				66B058F9245B9C9F008E5431 /* Frameworks */,
+				66B058FA245B9C9F008E5431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Gestures - Niehenke";
+			productName = "Gestures - Niehenke";
+			productReference = 66B058FC245B9C9F008E5431 /* Gestures - Niehenke.app */;
+			productType = "com.apple.product-type.application";
+		};
+		66B05911245B9CA2008E5431 /* Gestures - NiehenkeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B05929245B9CA2008E5431 /* Build configuration list for PBXNativeTarget "Gestures - NiehenkeTests" */;
+			buildPhases = (
+				66B0590E245B9CA2008E5431 /* Sources */,
+				66B0590F245B9CA2008E5431 /* Frameworks */,
+				66B05910245B9CA2008E5431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66B05914245B9CA2008E5431 /* PBXTargetDependency */,
+			);
+			name = "Gestures - NiehenkeTests";
+			productName = "Gestures - NiehenkeTests";
+			productReference = 66B05912245B9CA2008E5431 /* Gestures - NiehenkeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		66B0591C245B9CA2008E5431 /* Gestures - NiehenkeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 66B0592C245B9CA2008E5431 /* Build configuration list for PBXNativeTarget "Gestures - NiehenkeUITests" */;
+			buildPhases = (
+				66B05919245B9CA2008E5431 /* Sources */,
+				66B0591A245B9CA2008E5431 /* Frameworks */,
+				66B0591B245B9CA2008E5431 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				66B0591F245B9CA2008E5431 /* PBXTargetDependency */,
+			);
+			name = "Gestures - NiehenkeUITests";
+			productName = "Gestures - NiehenkeUITests";
+			productReference = 66B0591D245B9CA2008E5431 /* Gestures - NiehenkeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		66B058F4245B9C9F008E5431 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Adam Niehenke";
+				TargetAttributes = {
+					66B058FB245B9C9F008E5431 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					66B05911245B9CA2008E5431 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 66B058FB245B9C9F008E5431;
+					};
+					66B0591C245B9CA2008E5431 = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = 66B058FB245B9C9F008E5431;
+					};
+				};
+			};
+			buildConfigurationList = 66B058F7245B9C9F008E5431 /* Build configuration list for PBXProject "Gestures - Niehenke" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 66B058F3245B9C9F008E5431;
+			productRefGroup = 66B058FD245B9C9F008E5431 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				66B058FB245B9C9F008E5431 /* Gestures - Niehenke */,
+				66B05911245B9CA2008E5431 /* Gestures - NiehenkeTests */,
+				66B0591C245B9CA2008E5431 /* Gestures - NiehenkeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		66B058FA245B9C9F008E5431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B0590C245B9CA1008E5431 /* LaunchScreen.storyboard in Resources */,
+				66B05909245B9CA1008E5431 /* Assets.xcassets in Resources */,
+				66B05907245B9C9F008E5431 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B05910245B9CA2008E5431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B0591B245B9CA2008E5431 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		66B058F8245B9C9F008E5431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B05904245B9C9F008E5431 /* ViewController.swift in Sources */,
+				66B05900245B9C9F008E5431 /* AppDelegate.swift in Sources */,
+				66B05902245B9C9F008E5431 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B0590E245B9CA2008E5431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B05917245B9CA2008E5431 /* Gestures___NiehenkeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		66B05919245B9CA2008E5431 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66B05922245B9CA2008E5431 /* Gestures___NiehenkeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		66B05914245B9CA2008E5431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66B058FB245B9C9F008E5431 /* Gestures - Niehenke */;
+			targetProxy = 66B05913245B9CA2008E5431 /* PBXContainerItemProxy */;
+		};
+		66B0591F245B9CA2008E5431 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 66B058FB245B9C9F008E5431 /* Gestures - Niehenke */;
+			targetProxy = 66B0591E245B9CA2008E5431 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		66B05905245B9C9F008E5431 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B05906245B9C9F008E5431 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		66B0590A245B9CA1008E5431 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				66B0590B245B9CA1008E5431 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		66B05924245B9CA2008E5431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		66B05925245B9CA2008E5431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		66B05927245B9CA2008E5431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N727UVSL7;
+				INFOPLIST_FILE = "Gestures - Niehenke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adamniehenke.com.Gestures---Niehenke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		66B05928245B9CA2008E5431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N727UVSL7;
+				INFOPLIST_FILE = "Gestures - Niehenke/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adamniehenke.com.Gestures---Niehenke";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		66B0592A245B9CA2008E5431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N727UVSL7;
+				INFOPLIST_FILE = "Gestures - NiehenkeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adamniehenke.com.Gestures---NiehenkeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gestures - Niehenke.app/Gestures - Niehenke";
+			};
+			name = Debug;
+		};
+		66B0592B245B9CA2008E5431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N727UVSL7;
+				INFOPLIST_FILE = "Gestures - NiehenkeTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adamniehenke.com.Gestures---NiehenkeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Gestures - Niehenke.app/Gestures - Niehenke";
+			};
+			name = Release;
+		};
+		66B0592D245B9CA2008E5431 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N727UVSL7;
+				INFOPLIST_FILE = "Gestures - NiehenkeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adamniehenke.com.Gestures---NiehenkeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gestures - Niehenke";
+			};
+			name = Debug;
+		};
+		66B0592E245B9CA2008E5431 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 9N727UVSL7;
+				INFOPLIST_FILE = "Gestures - NiehenkeUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "adamniehenke.com.Gestures---NiehenkeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Gestures - Niehenke";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		66B058F7245B9C9F008E5431 /* Build configuration list for PBXProject "Gestures - Niehenke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B05924245B9CA2008E5431 /* Debug */,
+				66B05925245B9CA2008E5431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B05926245B9CA2008E5431 /* Build configuration list for PBXNativeTarget "Gestures - Niehenke" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B05927245B9CA2008E5431 /* Debug */,
+				66B05928245B9CA2008E5431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B05929245B9CA2008E5431 /* Build configuration list for PBXNativeTarget "Gestures - NiehenkeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B0592A245B9CA2008E5431 /* Debug */,
+				66B0592B245B9CA2008E5431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		66B0592C245B9CA2008E5431 /* Build configuration list for PBXNativeTarget "Gestures - NiehenkeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				66B0592D245B9CA2008E5431 /* Debug */,
+				66B0592E245B9CA2008E5431 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 66B058F4245B9C9F008E5431 /* Project object */;
+}
